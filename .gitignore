@@ -1,31 +1,12 @@
+/.idea/
+/.ipynb_checkpoints/
 /data/audio/
 /data/.ipynb_checkpoints/
+/data/creation/.ipynb_checkpoints
+/data/creation/features.csv
+/data/creation/audio_data.csv
 /venv/
 
 __pycache__/utils.cpython-39.pyc
 
-.idea/inspectionProfiles/profiles_settings.xml
-
-.idea/misc.xml
-
-.idea/modules.xml
-
-.idea/sound_project.iml
-
-.idea/vcs.xml
-
-.ipynb_checkpoints/main_1-checkpoint.ipynb
-
-.ipynb_checkpoints/main-checkpoint.ipynb
-
-.ipynb_checkpoints/README-checkpoint.md
-
-.ipynb_checkpoints/Untitled-checkpoint.ipynb
-
-.ipynb_checkpoints/utils-checkpoint.py
-
-data/creation/.ipynb_checkpoints/features-checkpoint.csv
-
-data/creation/features.csv
-
-data/creation/audio_data.csv
+data/creation/melspectrogram_features.csv

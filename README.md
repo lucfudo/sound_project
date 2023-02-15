@@ -1,14 +1,9 @@
 # UrbanSound8k Classification Project
-python 3.9
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUse
-.\venv\Scripts\activate
-
-pip freeze > requirements.txt
-
-## Prérequis
-### Téléchargement  des 
+## Prerequisites
+### Downloading packages
+*Python 3.9* : Run *pip install -r requirements.txt* in your pip env to install the necessary dependencies.
 ### Downloading the data
-In order to use this project, you must download the UrbanSound8k data from the following URL UrbanSound8k dataset and place them in the data directory at the root of the project. Be sure to respect the existing directory structure and not rename the downloaded files.
+In order to use this project, you must download the UrbanSound8k data from the following URL [UrbanSound8k dataset](https://urbansounddataset.weebly.com/urbansound8k.html) and place *audio* in the data directory at the root of the project. Be sure to respect the existing directory structure and not rename the downloaded files.
 
 Once the data has been placed correctly, you can start running the code.
 

@@ -4,6 +4,7 @@ import numpy as np
 import IPython.display as ipd
 import librosa
 from librosa.display import specshow
+import tensorflow as tf
 from sklearn.model_selection import train_test_split
 
 def set_default(style=['dark_background'], figsize=(15, 8), dpi=100):
@@ -11,6 +12,17 @@ def set_default(style=['dark_background'], figsize=(15, 8), dpi=100):
     plt.rc('axes', facecolor='k')
     plt.rc('figure', facecolor='k')
     plt.rc('figure', figsize=figsize, dpi=dpi)
+    
+
+def try_gpu():
+    if tf.test.is_gpu_available():
+        print("GPU available")
+        gpus = tf.config.list_physical_devices('GPU')
+        tf.config.experimental.set_memory_growth(gpus[0], True)
+        return True
+    else:
+        print("No GPU available")
+        return False
     
 def load_data(path, pickle=False, index_col=False):
     try:
