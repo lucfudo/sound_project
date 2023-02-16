@@ -12,3 +12,5 @@ __pycache__/utils.cpython-39.pyc
 data/creation/melspectrogram_features.csv
 
 *.pkl
+
+data/creation/100648-1-0-0.wav
